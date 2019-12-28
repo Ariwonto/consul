@@ -173,11 +173,14 @@ es-PE:
     footer:
       accessibility: Accesibilidad
       conditions: Condiciones de uso
-      consul: aplicación CONSUL
+      consul: aplicación Politech
+      consul_url: https://ariwonto.com
       contact_us: Para asistencia técnica entra en
-      description: Este portal usa o %{consul} que é %{open_source}. De Madrid para o mundo.
-      open_source: programa de código aberto
-      participation_text: Decida como adequar a Madrid que você deseja viver.
+      copyright: Politech, %{year}
+      description: Este portal usa la %{consul} que es %{open_source}.
+      open_source: potenciado con IOTA
+      open_source_url: https://iota.org
+      participation_text: Decide cómo debe ser el pais que quieres.
       participation_title: Participación
       privacy: Política de privacidad
     header:

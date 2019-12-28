@@ -409,7 +409,7 @@ namespace :proposal_actions do
       supports.times do |i|
         user = User.create!(
           username: "user_#{proposal.id}_#{day_offset}_#{i}",
-          email: "user_#{proposal.id}_#{day_offset}_#{i}@consul.dev",
+          email: "user_#{proposal.id}_#{day_offset}_#{i}@politech.dev",
           password: "12345678",
           password_confirmation: "12345678",
           confirmed_at: Time.current - expected_supports.length.days,

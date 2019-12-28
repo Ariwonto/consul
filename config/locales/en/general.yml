@@ -219,14 +219,14 @@ en:
     footer:
       accessibility: Accessibility
       conditions: Terms and conditions of use
-      consul: CONSUL application
-      consul_url: https://github.com/consul/consul
+      consul: Politech application
+      consul_url: https://ariwonto.com
       contact_us: For technical assistance visit
-      copyright: CONSUL, %{year}
+      copyright: Politech, %{year}
       description: This portal uses the %{consul} which is %{open_source}.
-      open_source: open-source software
-      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide how to shape the city you want to live in.
+      open_source: boosted by IOTA
+      open_source_url: https://iota.org
+      participation_text: Decide how to shape the country you want to live in.
       participation_title: Participation
       privacy: Privacy Policy
     header:
@@ -236,7 +236,7 @@ en:
       collaborative_legislation: Collaborative legislation
       debates: Debates
       locale: "Language:"
-      logo: CONSUL logo
+      logo: Politech logo
       management: Management
       moderation: Moderation
       valuation: Valuation

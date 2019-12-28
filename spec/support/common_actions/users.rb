@@ -1,5 +1,5 @@
 module Users
-  def sign_up(email = "manuela@consul.dev", password = "judgementday")
+  def sign_up(email = "manuela@politech.dev", password = "judgementday")
     visit "/"
 
     click_link "Register"
@@ -13,7 +13,7 @@ module Users
     click_button "Register"
   end
 
-  def login_through_form_with_email_and_password(email = "manuela@consul.dev", password = "judgementday")
+  def login_through_form_with_email_and_password(email = "manuela@politech.dev", password = "judgementday")
     visit root_path
     click_link "Sign in"
 
@@ -64,13 +64,13 @@ module Users
   end
 
   def reset_password
-    create(:user, email: "manuela@consul.dev")
+    create(:user, email: "manuela@politech.dev")
 
     visit "/"
     click_link "Sign in"
     click_link "Forgotten your password?"
 
-    fill_in "user_email", with: "manuela@consul.dev"
+    fill_in "user_email", with: "manuela@politech.dev"
     click_button "Send instructions"
   end
 

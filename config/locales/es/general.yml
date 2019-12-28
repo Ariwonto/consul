@@ -219,14 +219,14 @@ es:
     footer:
       accessibility: Accesibilidad
       conditions: Condiciones de uso
-      consul: aplicación CONSUL
-      consul_url: https://github.com/consul/consul
+      consul: aplicación Politech
+      consul_url: https://ariwonto.com
       contact_us: Para asistencia técnica entra en
-      copyright: CONSUL, %{year}
+      copyright: Politech, %{year}
       description: Este portal usa la %{consul} que es %{open_source}.
-      open_source: software de código abierto
-      open_source_url: http://www.gnu.org/licenses/agpl-3.0.html
-      participation_text: Decide cómo debe ser la ciudad que quieres.
+      open_source: potenciado con IOTA
+      open_source_url: https://iota.org
+      participation_text: Decide cómo debe ser el pais que quieres.
       participation_title: Participación
       privacy: Política de privacidad
     header:
@@ -236,7 +236,7 @@ es:
       collaborative_legislation: Legislación colaborativa
       debates: Debates
       locale: "Idioma:"
-      logo: Logo de CONSUL
+      logo: Logo de politech
       management: Gestión
       moderation: Moderar
       valuation: Evaluación

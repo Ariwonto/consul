@@ -14,11 +14,11 @@ describe DeviseMailer do
 
     it "reads the from address at runtime" do
       Setting["mailer_from_name"] = "New organization"
-      Setting["mailer_from_address"] = "new@consul.dev"
+      Setting["mailer_from_address"] = "new@politech.dev"
 
       email = DeviseMailer.confirmation_instructions(create(:user), "ABC")
 
-      expect(email).to deliver_from "'New organization' <new@consul.dev>"
+      expect(email).to deliver_from "'New organization' <new@politech.dev>"
     end
   end
 end

@@ -1,7 +1,7 @@
 require "rails_helper"
 
 describe "Admin download user emails" do
-  let(:admin_user) { create(:user, newsletter: false, email: "admin@consul.dev") }
+  let(:admin_user) { create(:user, newsletter: false, email: "admin@politech.dev") }
 
   before do
     create(:administrator, user: admin_user)
@@ -10,14 +10,14 @@ describe "Admin download user emails" do
 
   context "Download only emails from segment users with newsletter flag & present email " do
     before do
-      create(:user, email: "user@consul.dev")
+      create(:user, email: "user@politech.dev")
 
-      create(:administrator, user: create(:user, newsletter: true, email: "admin_news1@consul.dev"))
-      create(:administrator, user: create(:user, newsletter: true, email: "admin_news2@consul.dev"))
+      create(:administrator, user: create(:user, newsletter: true, email: "admin_news1@politech.dev"))
+      create(:administrator, user: create(:user, newsletter: true, email: "admin_news2@politech.dev"))
 
-      create(:administrator, user: create(:user, newsletter: false, email: "no_news@consul.dev"))
+      create(:administrator, user: create(:user, newsletter: false, email: "no_news@politech.dev"))
 
-      admin_without_email = create(:user, newsletter: true, email: "no_email@consul.dev")
+      admin_without_email = create(:user, newsletter: true, email: "no_email@politech.dev")
       create(:administrator, user: admin_without_email)
       admin_without_email.update_column(:email, nil)
     end
@@ -35,7 +35,7 @@ describe "Admin download user emails" do
       expect(header).to match(/filename="Administrators.csv"$/)
 
       file_contents = page.body.split(",")
-      expect(file_contents).to match_array ["admin_news1@consul.dev", "admin_news2@consul.dev"]
+      expect(file_contents).to match_array ["admin_news1@politech.dev", "admin_news2@politech.dev"]
     end
   end
 end

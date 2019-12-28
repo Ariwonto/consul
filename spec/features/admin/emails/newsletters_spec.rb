@@ -10,7 +10,7 @@ describe "Admin newsletter emails" do
     scenario "Valid newsletter" do
       newsletter = create(:newsletter, subject: "This is a subject",
                                        segment_recipient: "all_users",
-                                       from: "no-reply@consul.dev",
+                                       from: "no-reply@politech.dev",
                                        body: "This is a body")
 
       visit admin_newsletter_path(newsletter)
@@ -18,7 +18,7 @@ describe "Admin newsletter emails" do
       expect(page).to have_link "Go back", href: admin_newsletters_path
       expect(page).to have_content "This is a subject"
       expect(page).to have_content I18n.t("admin.segment_recipient.#{newsletter.segment_recipient}")
-      expect(page).to have_content "no-reply@consul.dev"
+      expect(page).to have_content "no-reply@politech.dev"
       expect(page).to have_content "This is a body"
     end
 
@@ -73,7 +73,7 @@ describe "Admin newsletter emails" do
     expect(page).to have_content "Newsletter created successfully"
     expect(page).to have_content "This is a subject"
     expect(page).to have_content "Proposal authors"
-    expect(page).to have_content "no-reply@consul.dev"
+    expect(page).to have_content "no-reply@politech.dev"
     expect(page).to have_content "This is a body"
   end
 
@@ -95,7 +95,7 @@ describe "Admin newsletter emails" do
     expect(page).to have_content "Newsletter updated successfully"
     expect(page).to have_content "This is a subject"
     expect(page).to have_content "Investment authors in the current budget"
-    expect(page).to have_content "no-reply@consul.dev"
+    expect(page).to have_content "no-reply@politech.dev"
     expect(page).to have_content "This is a body"
   end
 

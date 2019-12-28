@@ -7,15 +7,15 @@ describe "Emails" do
 
   context "On Staging Environment" do
     scenario "emails are delivered to configured recipient" do
-      interceptor = RecipientInterceptor.new("recipient@consul.dev", subject_prefix: "[staging]")
+      interceptor = RecipientInterceptor.new("recipient@politech.dev", subject_prefix: "[staging]")
       Mail.register_interceptor(interceptor)
 
       sign_up
 
       email = open_last_email
       expect(email).to have_subject("[staging] Confirmation instructions")
-      expect(email).to deliver_to("recipient@consul.dev")
-      expect(email).not_to deliver_to("manuela@consul.dev")
+      expect(email).to deliver_to("recipient@politech.dev")
+      expect(email).not_to deliver_to("manuela@politech.dev")
 
       Mail.unregister_interceptor(interceptor)
     end
@@ -26,7 +26,7 @@ describe "Emails" do
 
     email = open_last_email
     expect(email).to have_subject("Confirmation instructions")
-    expect(email).to deliver_to("manuela@consul.dev")
+    expect(email).to deliver_to("manuela@politech.dev")
     expect(email).to have_body_text(user_confirmation_path)
   end
 
@@ -35,7 +35,7 @@ describe "Emails" do
 
     email = open_last_email
     expect(email).to have_subject("Instructions for resetting your password")
-    expect(email).to deliver_to("manuela@consul.dev")
+    expect(email).to deliver_to("manuela@politech.dev")
     expect(email).to have_body_text(edit_user_password_path)
   end
 
@@ -210,7 +210,7 @@ describe "Emails" do
     click_button "Registrarse"
 
     email = open_last_email
-    expect(email).to deliver_to("manuela@consul.dev")
+    expect(email).to deliver_to("manuela@politech.dev")
     expect(email).to have_body_text(user_confirmation_path)
     expect(email).to have_subject("Instrucciones de confirmación")
   end
@@ -485,7 +485,7 @@ describe "Emails" do
 
       email = open_last_email
       expect(email).to have_subject("This is a different subject")
-      expect(email).to deliver_from("no-reply@consul.dev")
+      expect(email).to deliver_from("no-reply@politech.dev")
       expect(email.body.encoded).to include("This is a different body")
     end
   end

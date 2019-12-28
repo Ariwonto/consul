@@ -405,9 +405,9 @@ describe User do
 
   describe "self.search" do
     it "find users by email" do
-      user1 = create(:user, email: "larry@consul.dev")
-      create(:user, email: "bird@consul.dev")
-      search = User.search("larry@consul.dev")
+      user1 = create(:user, email: "larry@politech.dev")
+      create(:user, email: "bird@politech.dev")
+      search = User.search("larry@politech.dev")
 
       expect(search).to eq [user1]
     end

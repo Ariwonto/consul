@@ -16,11 +16,11 @@ describe Mailer do
 
     it "reads the from address at runtime" do
       Setting["mailer_from_name"] = "New organization"
-      Setting["mailer_from_address"] = "new@consul.dev"
+      Setting["mailer_from_address"] = "new@politech.dev"
 
       email = Mailer.comment(create(:comment))
 
-      expect(email).to deliver_from "New organization <new@consul.dev>"
+      expect(email).to deliver_from "New organization <new@politech.dev>"
     end
   end
 end

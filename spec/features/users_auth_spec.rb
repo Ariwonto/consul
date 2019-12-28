@@ -9,7 +9,7 @@ describe "Users" do
         click_link "Register"
 
         fill_in "user_username",              with: "Manuela Carmena"
-        fill_in "user_email",                 with: "manuela@consul.dev"
+        fill_in "user_email",                 with: "manuela@politech.dev"
         fill_in "user_password",              with: "judgementday"
         fill_in "user_password_confirmation", with: "judgementday"
         check "user_terms_of_service"
@@ -34,11 +34,11 @@ describe "Users" do
 
     context "Sign in" do
       scenario "sign in with email" do
-        create(:user, email: "manuela@consul.dev", password: "judgementday")
+        create(:user, email: "manuela@politech.dev", password: "judgementday")
 
         visit "/"
         click_link "Sign in"
-        fill_in "user_login",    with: "manuela@consul.dev"
+        fill_in "user_login",    with: "manuela@politech.dev"
         fill_in "user_password", with: "judgementday"
         click_button "Enter"
 
@@ -201,7 +201,7 @@ describe "Users" do
       end
 
       scenario "Sign in, user was already signed up with OAuth" do
-        user = create(:user, email: "manuela@consul.dev", password: "judgementday")
+        user = create(:user, email: "manuela@politech.dev", password: "judgementday")
         create(:identity, uid: "12345", provider: "twitter", user: user)
         OmniAuth.config.add_mock(:twitter, twitter_hash)
 
@@ -219,7 +219,7 @@ describe "Users" do
       end
 
       scenario "Try to register with the username of an already existing user" do
-        create(:user, username: "manuela", email: "manuela@consul.dev", password: "judgementday")
+        create(:user, username: "manuela", email: "manuela@politech.dev", password: "judgementday")
         OmniAuth.config.add_mock(:twitter, twitter_hash_with_verified_email)
 
         visit "/"
@@ -325,13 +325,13 @@ describe "Users" do
   end
 
   scenario "Reset password" do
-    create(:user, email: "manuela@consul.dev")
+    create(:user, email: "manuela@politech.dev")
 
     visit "/"
     click_link "Sign in"
     click_link "Forgotten your password?"
 
-    fill_in "user_email", with: "manuela@consul.dev"
+    fill_in "user_email", with: "manuela@politech.dev"
     click_button "Send instructions"
 
     expect(page).to have_content "If your email address is in our database, in a few minutes "\
@@ -361,13 +361,13 @@ describe "Users" do
   end
 
   scenario "Re-send confirmation instructions" do
-    create(:user, email: "manuela@consul.dev")
+    create(:user, email: "manuela@politech.dev")
 
     visit "/"
     click_link "Sign in"
     click_link "Haven't received instructions to activate your account?"
 
-    fill_in "user_email", with: "manuela@consul.dev"
+    fill_in "user_email", with: "manuela@politech.dev"
     click_button "Re-send instructions"
 
     expect(page).to have_content "If your email address is in our database, in a few minutes you "\

@@ -49,15 +49,15 @@ describe Newsletter do
 
   describe "#list_of_recipient_emails" do
     before do
-      create(:user, newsletter: true, email: "newsletter_user@consul.dev")
-      create(:user, newsletter: true, email: "newsletter_unconfirmed_user@consul.dev", confirmed_at: nil)
-      create(:user, newsletter: false, email: "no_news_user@consul.dev")
-      create(:user, email: "erased_user@consul.dev").erase
+      create(:user, newsletter: true, email: "newsletter_user@politech.dev")
+      create(:user, newsletter: true, email: "newsletter_unconfirmed_user@politech.dev", confirmed_at: nil)
+      create(:user, newsletter: false, email: "no_news_user@politech.dev")
+      create(:user, email: "erased_user@politech.dev").erase
       newsletter.update!(segment_recipient: "all_users")
     end
 
     it "returns list of recipients excluding users with disabled newsletter" do
-      expect(newsletter.list_of_recipient_emails).to eq ["newsletter_user@consul.dev"]
+      expect(newsletter.list_of_recipient_emails).to eq ["newsletter_user@politech.dev"]
     end
   end
 
@@ -128,13 +128,13 @@ describe Newsletter do
 
     it "skips invalid emails" do
       Proposal.destroy_all
-      create(:user, :with_proposal, email: "valid@consul.dev")
+      create(:user, :with_proposal, email: "valid@politech.dev")
       create(:user, :with_proposal, email: "invalid@consul..dev")
 
       newsletter.deliver
 
       expect(Activity.count).to eq(1)
-      expect(Activity.first.user.email).to eq("valid@consul.dev")
+      expect(Activity.first.user.email).to eq("valid@politech.dev")
       expect(Activity.first.action).to eq("email")
       expect(Activity.first.actionable).to eq(newsletter)
     end
