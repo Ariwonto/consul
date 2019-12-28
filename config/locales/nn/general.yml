@@ -216,7 +216,7 @@ nn:
       accessibility: Tilgjengelighet
       conditions: Brukervilkår
       consul: CONSUL
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: For teknisk support gå til
       copyright: CONSUL, %{year}
       description: Denne portalen bruker %{consul} som er %{open_source}.

@@ -9,7 +9,7 @@
 
 ## Todos los demás contribuidores
 
-Además del equipo formal, hay [más de cien contribuidores](https://github.com/consul/consul/graphs/contributors). ¡Muchas gracias por vuestro código! También estamos muy agradecidos a las personas que contribuyen de otras formas, incluida la documentación, traducciones, evangelismo, administración de sistemas, comunicación, organización y más.
+Además del equipo formal, hay [más de cien contribuidores](https://github.com/Ariwonto/consul/graphs/contributors). ¡Muchas gracias por vuestro código! También estamos muy agradecidos a las personas que contribuyen de otras formas, incluida la documentación, traducciones, evangelismo, administración de sistemas, comunicación, organización y más.
 
 Finalmente, un agradecimiento especial a los antiguos miembros del equipo core. Conocidos con cariño como El Alumni:
 
@@ -21,7 +21,7 @@ Los miembros del proyecto y la comunidad de personas que contribuyen a él se ad
 
 ## Comunicación general y de incidencias
 
-El método preferido para informar sobre una incidencia en el proyecto es [creando una incidencia en la cuenta de Github del proyecto](https://github.com/consul/consul/issues/new).
+El método preferido para informar sobre una incidencia en el proyecto es [creando una incidencia en la cuenta de Github del proyecto](https://github.com/Ariwonto/consul/issues/new).
 
 Para comunicación más puntual e informal, contacta con los miembros del equipo por twitter.
 
@@ -29,7 +29,7 @@ Para comunicación más puntual e informal, contacta con los miembros del equipo
 
 Los administradores utilizan dos etiquetas relacionadas con la disponibilidad para aceptar colaboraciones con las que marcar incidencias:
 
-* `PRs-welcome`: las [incidencias marcadas como PRs-welcome](https://github.com/consul/consul/labels/PRs-welcome) son funcionalidades bien definidas y que están listas para que quien quiera pueda implementarlas.
+* `PRs-welcome`: las [incidencias marcadas como PRs-welcome](https://github.com/Ariwonto/consul/labels/PRs-welcome) son funcionalidades bien definidas y que están listas para que quien quiera pueda implementarlas.
 
 * `Not-ready`: con esta etiqueta se señalan funcionalidades o cambios que han de realizarse pero que todavía no están del todo definidos o falta alguna decisión a nivel interno que tomar. Por tanto se desaconseja que se inicie su implementación de momento.
 

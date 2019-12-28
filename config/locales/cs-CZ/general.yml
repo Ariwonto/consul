@@ -171,7 +171,7 @@ cs:
       accessibility: Přístupnost
       conditions: Podmínky používání
       consul: aplikace CONSUL
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Kontaktujte technickou podporu
       copyright: CONSUL, %{year}
       description: Tento portál software %{consul}, což je %{open_source}.

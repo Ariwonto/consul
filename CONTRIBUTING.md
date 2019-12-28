@@ -9,7 +9,7 @@
 
 ## All other contributors
 
-In addition to the formal team, there are [over a hundred contributors](https://github.com/consul/consul/graphs/contributors). Thank you so much for your code! Big thanks too to the people that contribute in many other ways including documentation, translations, evangelism, dev ops, communication, organizing and more!
+In addition to the formal team, there are [over a hundred contributors](https://github.com/Ariwonto/consul/graphs/contributors). Thank you so much for your code! Big thanks too to the people that contribute in many other ways including documentation, translations, evangelism, dev ops, communication, organizing and more!
 
 Finally a special thanks to the former core team members. Lovingly known as The Alumni:
 
@@ -21,7 +21,7 @@ The core team members and the project's community adopts an inclusive Code of Co
 
 ## Report an issue
 
-The prefered way to report any bug is [opening an issue in the project's Github repo](https://github.com/consul/consul/issues/new).
+The prefered way to report any bug is [opening an issue in the project's Github repo](https://github.com/Ariwonto/consul/issues/new).
 
 For more informal communication, contact team members via twitter
 
@@ -29,7 +29,7 @@ For more informal communication, contact team members via twitter
 
 Admins tag issues using two label related with collaboration availability:
 
-* `PRs-welcome`: [issues labeled with PRs-welcome](https://github.com/consul/consul/labels/PRs-welcome) are well defined features ready to be implemented by whoever wants to do it.
+* `PRs-welcome`: [issues labeled with PRs-welcome](https://github.com/Ariwonto/consul/labels/PRs-welcome) are well defined features ready to be implemented by whoever wants to do it.
 
 * `Not-ready`: with this label admins mark features or changes that are not well defined yet or subject to an internal decision. Is not a good idea to start implementation of these issues.
 

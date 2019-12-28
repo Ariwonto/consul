@@ -220,7 +220,7 @@ de:
       accessibility: Barrierefreiheit
       conditions: Allgemeine Nutzungsbedingungen
       consul: CONSUL Anwendung
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Für technische Unterstützung geben Sie ein
       copyright: CONSUL, %{year}
       description: Die Plattform basiert auf %{consul}, einer %{open_source}.

@@ -114,7 +114,7 @@ fi:
       firefox: Firefox
     footer:
       conditions: Ehdot ja käyttöehdot
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       copyright: CONSUL, %{year}
       open_source: avoimen lähdekoodin ohjelmisto
       open_source_url: http://www.gnu.org/licenses/agpl-3.0.html

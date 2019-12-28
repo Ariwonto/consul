@@ -55,9 +55,9 @@ hr:
         text: |-
           Koristite ga za Vašu lokalnu vlast ili nam pomognite poboljšati ga, softver je besplatan. 
 
-          Ovaj Otvoreni Portal Vlade koristi [CONSUL app](https://github.com/consul/consul 'consul github') besplatni softvere, s [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), koja znači jednostavnije riječi koje svatko može slobodno koristiti, kopirati, detaljno pregledati, modificirati i redistribuirati ih svijetu s modifikacijama koje žele (prilikom čega i ostali mogu isto napraviti). Zato jer mi mislimo da je kultura bolja i bogatija kada se dijeli. 
+          Ovaj Otvoreni Portal Vlade koristi [CONSUL app](https://github.com/Ariwonto/consul 'consul github') besplatni softvere, s [licence AGPLv3](http://www.gnu.org/licenses/agpl-3.0.html 'AGPLv3 gnu' ), koja znači jednostavnije riječi koje svatko može slobodno koristiti, kopirati, detaljno pregledati, modificirati i redistribuirati ih svijetu s modifikacijama koje žele (prilikom čega i ostali mogu isto napraviti). Zato jer mi mislimo da je kultura bolja i bogatija kada se dijeli. 
 
-          Ako ste programer možete vidjeti kod i pomoći nam poboljšati ga [CONSUL app](https://github.com/consul/consul 'consul github').
+          Ako ste programer možete vidjeti kod i pomoći nam poboljšati ga [CONSUL app](https://github.com/Ariwonto/consul 'consul github').
       titles:
         how_to_use: Koristite ga za svoju lokalno javno tijelo
     privacy:

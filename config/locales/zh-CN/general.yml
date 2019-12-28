@@ -177,7 +177,7 @@ zh-CN:
       accessibility: 无障碍功能
       conditions: 使用条款及条件
       consul: CONSUL应用程序
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: 访问技术支援
       copyright: CONSUL, %{year}
       description: 此门户网站使用%{consul}，其是%{open_source}。

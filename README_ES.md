@@ -20,7 +20,7 @@ Aplicación de Participación Ciudadana y Gobierno Abierto
 [![A11y issues checked with Rocket Validator](https://rocketvalidator.com/badges/checked_with_rocket_validator.svg?url=https://rocketvalidator.com)](https://rocketvalidator.com/opensource)
 
 [![Join the chat at https://gitter.im/consul/consul](https://badges.gitter.im/consul/consul.svg)](https://gitter.im/consul/consul?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/consul/consul/issues?q=is%3Aissue+is%3Aopen+label%3APRs-welcome)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Ariwonto/consul/issues?q=is%3Aissue+is%3Aopen+label%3APRs-welcome)
 
 Este es el repositorio de código abierto de la Aplicación de Participación Ciudadana CONSUL, creada originariamente por el Ayuntamiento de Madrid.
 
@@ -39,7 +39,7 @@ Puedes acceder a la página principal del proyecto en [http://consulproject.org]
 Prerequisitos: tener instalado git, Ruby 2.4.9, la gema `bundler`, Node.js y PostgreSQL (9.4 o superior).
 
 ```bash
-git clone https://github.com/consul/consul.git
+git clone https://github.com/Ariwonto/consul.git
 cd consul
 bundle install
 cp config/database.yml.example config/database.yml
@@ -76,7 +76,7 @@ Pero para ciertas acciones, como apoyar, necesitarás un usuario verificado, el 
 
 ## Estado del proyecto
 
-El desarrollo de esta aplicación comenzó el [15 de Julio de 2015](https://github.com/consul/consul/commit/8db36308379accd44b5de4f680a54c41a0cc6fc6) y el código fue puesto en producción el día 7 de Septiembre de 2015 en [decide.madrid.es](https://decide.madrid.es). Desde entonces se le añaden mejoras y funcionalidades constantemente. Las funcionalidades actuales se pueden consultar en la [la página del projecto](http://consulproject.org/es) y las futuras funcionalidades en el [Roadmap](https://github.com/consul/consul/projects/6) y [el listado de issues](https://github.com/consul/consul/issues).
+El desarrollo de esta aplicación comenzó el [15 de Julio de 2015](https://github.com/Ariwonto/consul/commit/8db36308379accd44b5de4f680a54c41a0cc6fc6) y el código fue puesto en producción el día 7 de Septiembre de 2015 en [decide.madrid.es](https://decide.madrid.es). Desde entonces se le añaden mejoras y funcionalidades constantemente. Las funcionalidades actuales se pueden consultar en la [la página del projecto](http://consulproject.org/es) y las futuras funcionalidades en el [Roadmap](https://github.com/Ariwonto/consul/projects/6) y [el listado de issues](https://github.com/Ariwonto/consul/issues).
 
 ## Licencia
 

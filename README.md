@@ -21,7 +21,7 @@ Citizen Participation and Open Government Application
 [![A11y issues checked with Rocket Validator](https://rocketvalidator.com/badges/checked_with_rocket_validator.svg?url=https://rocketvalidator.com)](https://rocketvalidator.com/opensource)
 
 [![Join the chat at https://gitter.im/consul/consul](https://badges.gitter.im/consul/consul.svg)](https://gitter.im/consul/consul?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/consul/consul/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted")
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Ariwonto/consul/issues?q=is%3Aissue+is%3Aopen+label%3A"help+wanted")
 
 This is the opensource code repository of the eParticipation website CONSUL, originally developed for the Madrid City government eParticipation website
 
@@ -40,7 +40,7 @@ You can access the main website of the project at [http://consulproject.org](htt
 Prerequisites: install git, Ruby 2.4.9, `bundler` gem, Node.js and PostgreSQL (>=9.4).
 
 ```bash
-git clone https://github.com/consul/consul.git
+git clone https://github.com/Ariwonto/consul.git
 cd consul
 bundle install
 cp config/database.yml.example config/database.yml
@@ -81,7 +81,7 @@ See [installer](https://github.com/consul/installer)
 
 ## Current state
 
-Development started on [2015 July 15th](https://github.com/consul/consul/commit/8db36308379accd44b5de4f680a54c41a0cc6fc6). Code was deployed to production on 2015 september 7th to [decide.madrid.es](https://decide.madrid.es). Since then new features are added often. You can take a look at the current features at the [project's website](http://consulproject.org/) and future features at the [Roadmap](https://github.com/consul/consul/projects/6) and [open issues list](https://github.com/consul/consul/issues).
+Development started on [2015 July 15th](https://github.com/Ariwonto/consul/commit/8db36308379accd44b5de4f680a54c41a0cc6fc6). Code was deployed to production on 2015 september 7th to [decide.madrid.es](https://decide.madrid.es). Since then new features are added often. You can take a look at the current features at the [project's website](http://consulproject.org/) and future features at the [Roadmap](https://github.com/Ariwonto/consul/projects/6) and [open issues list](https://github.com/Ariwonto/consul/issues).
 
 ## License
 

@@ -184,7 +184,7 @@ nl:
       accessibility: Toegankelijkheid
       conditions: Gebruiksvoorwaarden
       consul: Consul
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Voor tech support klik
       copyright: Consul, %{year}
       description: Deze site gebruikt %{consul}; een %{open_source} toepassing.

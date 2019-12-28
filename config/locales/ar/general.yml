@@ -243,7 +243,7 @@ ar:
       accessibility: إمكانية الوصول
       conditions: قوانين وشروط الاستخدام
       consul: تطبيق CONSUL
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: للحصول على المساعدة الفنية، قم بزيارة
       copyright: CONSUL, %{year}
       description: تستخدم هذه البوابة %{consul} والذي هو%{open_source}.

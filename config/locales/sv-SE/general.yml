@@ -201,7 +201,7 @@ sv:
       accessibility: Tillgänglighet
       conditions: användarvillkoren
       consul: CONSUL
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: För teknisk support gå till
       copyright: CONSUL, %{year}
       description: Den här webbplatsen använder %{consul} som är %{open_source}.

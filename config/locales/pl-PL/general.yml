@@ -196,7 +196,7 @@ pl:
       accessibility: Ułatwienia dostępu
       conditions: Regulamin
       consul: Aplikacja CONSUL
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Do centrów pomocy technicznej
       copyright: CONSUL, %{year}
       description: Ten portal używa %{consul}, który jest %{open_source}.

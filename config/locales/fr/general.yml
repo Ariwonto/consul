@@ -183,7 +183,7 @@ fr:
       accessibility: Accessibilité
       conditions: Conditions légales
       consul: Application Consul
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Pour l'assistance technique visitez la
       copyright: Consul, %{year}
       description: Ce portail utiliser %{consul} qui est %{open_source}. De Madrid ouvert sur le monde.

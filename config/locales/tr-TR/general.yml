@@ -207,7 +207,7 @@ tr:
       accessibility: Erişilebilirlik
       conditions: Kullanım şartları ve koşulları
       consul: CONSUL uygulaması
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Teknik yardım için ziyaret edin
       copyright: CONSUL, %{year}
       description: Bu portal %{open_source} olan %{consul}u kullanmaktadır.

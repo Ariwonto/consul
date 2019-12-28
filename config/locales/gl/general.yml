@@ -209,7 +209,7 @@ gl:
       accessibility: Accesibilidade
       conditions: Condicións de uso
       consul: aplicación CONSUL
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Se precisas asistencia técnica
       copyright: CONSUL, %{year}
       description: Este portal usa a %{consul} que é %{open_source}. De Madrid, para o mundo enteiro.

@@ -196,7 +196,7 @@ pt-BR:
       accessibility: Acessibilidade
       conditions: Termos e condições de uso
       consul: Aplicativo Consul
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Para suporte técnico entre em
       copyright: Consul, %{year}
       description: Este portal usa o %{consul} que é %{open_source}. De Madrid para o mundo.

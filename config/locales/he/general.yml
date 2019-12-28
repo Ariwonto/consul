@@ -225,7 +225,7 @@ he:
       accessibility: נגישות
       conditions: כללים ותנאי שימוש
       consul: מערכת ההצבעות לשיתוף תושבים
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: תמיכה טכנית באתר הפרויקט
       copyright: Consul, %{year}
       description: פורטל זה משתמש בפלטפורמת %{consul} שהיא %{open_source}.

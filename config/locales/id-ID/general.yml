@@ -172,7 +172,7 @@ id:
       accessibility: Aksesibilitas
       conditions: Syarat dan ketentuan penggunaan
       consul: Konsul aplikasi
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Untuk bantuan teknis memasuki
       copyright: KONSUL, %{year}
       description: Portal ini menggunakan %{consul} Itulah %{open_source}.

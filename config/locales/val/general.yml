@@ -183,7 +183,7 @@ val:
       accessibility: Accessibilitat
       conditions: Termes i condicions d'us
       consul: Aplicació CONSUL
-      consul_url: https://github.com/consul/consul
+      consul_url: https://github.com/Ariwonto/consul
       contact_us: Per a assistencia técnica entra en
       copyright: CONSUL, %{year}
       description: Este portal utilitza la %{consul} que es %{open_source}.
